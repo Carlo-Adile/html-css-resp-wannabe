@@ -133,19 +133,24 @@ img {
     .container{
         display: flex;
         flex-flow: column wrap;
-        width:480px;
+        width:100%;
     }
     .row{
         display: flex;
         flex-flow:column wrap;
-        align-items: center;
-        
+        align-items: center;  
     }
     section .col{
-        min-width: 400px;
+        min-width: 90%;
     }
 }
 
-/* @media screen and (min-width:768px){
-
-} */
+/* tablet screen */
+@media screen and (max-width:768px){
+    .container{
+        display: flex;
+        flex-flow: column wrap;
+        width:100%;
+    }
+    
+}
